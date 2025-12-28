@@ -20,7 +20,22 @@
         "height": 750
       },
       "resizable": true
-    }
+    },
+    "about": "Email client with full Gmail integration.",
+    "help": [
+      "Click Compose to write",
+      "Use labels to organize",
+      "Search to find emails"
+    ],
+    "docs": "https://zos-apps.github.io/gmail",
+    "site": "https://github.com/zos-apps/gmail",
+    "features": [
+      "Email composition",
+      "Labels",
+      "Search",
+      "Filters",
+      "Attachments"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +68,13 @@
     "gmail",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
